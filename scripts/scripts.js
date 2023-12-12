@@ -1,10 +1,10 @@
-function SquareNumber(num1, num2, equal) {
+function calculator(num1, num2, equal) {
     if (equal === 'add') {
         console.log(num1 * num2);
     }
 }
 
-SquareNumber(7, 7, 'add');
+calculator(7, 7, 'add');
 
 
 function FahrenheitCelsius(num1, num2, num3, equal) {
